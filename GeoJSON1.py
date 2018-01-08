@@ -1,3 +1,7 @@
+#Finding the latitude and lngitude of a given location using google
+#maps geocode api
+#Abhijeet Mohapatra 
+
 import json
 import urllib.parse,urllib.request,urllib.error
 
