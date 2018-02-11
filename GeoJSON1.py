@@ -29,7 +29,7 @@ while True:
 		print(data)
 		continue
 
-	print(json.dumps(js, indent=4)) #this line pretty prints the list of dictionaries with indents
+	#print(json.dumps(js, indent=4)) #this line pretty prints the list of dictionaries with indents
 	#json.dumps is the opposite of json.loads
 
 	lat = js["results"][0]["geometry"]["location"]["lat"]
